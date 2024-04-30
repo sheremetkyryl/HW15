@@ -9,6 +9,7 @@
     flex-basis: calc(100%) / 3;
 }
 .item-1 {  
+    flex-basis: 50%;
     background-color: orange;
     order: -5;
 }
@@ -25,6 +26,7 @@
     order: 1;
 }
 .item-5 {
+    flex-basis: 50%;
     background-color: yellow;
     order: -4;
 }
