@@ -1,0 +1,30 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item {
+    padding:20px 0px;
+    flex-basis: calc(100%) / 3;
+}
+.item-1 {  
+    background-color: orange;
+    order: -5;
+}
+.item-2 {
+    background-color: blue;
+    order: -2;
+}
+.item-3 {
+    background-color: blueviolet;
+    order: -3;
+}
+.item-4 {
+    background-color: green;
+    order: 1;
+}
+.item-5 {
+    background-color: yellow;
+    order: -4;
+}
