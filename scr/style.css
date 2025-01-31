@@ -14,14 +14,17 @@
     order: -5;
 }
 .item-2 {
+    flex-basis: 25%;
     background-color: blue;
     order: -2;
 }
 .item-3 {
+    flex-basis: 25%;
     background-color: blueviolet;
     order: -3;
 }
 .item-4 {
+    flex-basis: 25%;
     background-color: green;
     order: 1;
 }
